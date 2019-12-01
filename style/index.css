@@ -112,6 +112,7 @@
     line-height: 40px;
     border: 1px solid #e8d9b1;
     cursor: pointer;
+     position: relative;
 }
 
 .conter_two{
@@ -375,3 +376,21 @@ footer .content .logo{
     width: 100%;
     text-align: center;
 }
+ .hot {
+    position: absolute;
+   top: 221PX;
+
+     transition: all 0.2s;
+}
+
+
+ .hot {
+    position: absolute;
+    top: 2px;
+    right:-3px;
+}
+
+ .hot.on {
+   top: 0;
+}
+
